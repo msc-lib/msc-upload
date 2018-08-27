@@ -1,10 +1,11 @@
 package fun.pplm.msc.upload.service;
 
+
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
+
 
 import fun.pplm.msc.framework.vertx.utils.ResHelper;
 import fun.pplm.msc.upload.util.Constant;
@@ -15,7 +16,7 @@ public class InfoService {
 	
 	@GET
 	@Path("/sysinfo")
-	public Response doGetSysinfo() {
+	public Object doGetSysinfo() {
 		return ResHelper.success(Constant.SYSTEM_INFO);
 	}
 	

@@ -80,6 +80,13 @@
 			<artifactId>framework.vertx</artifactId>
 			<version>1.0.0</version>
 		</dependency>
+		<dependency>
+ 			<groupId>org.jboss.resteasy</groupId>
+ 			<artifactId>resteasy-multipart-provider</artifactId>
+ 			<version>3.6.1.Final</version>
+ 		</dependency>
+
+ 		
 	</dependencies>
 
 </project>
